@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+
+
+
+
+
+
+<body >
+  
+ 
+         <div class="contenedor_head">
+
+            <!-- contenido del head de la izquirda -->
+                                                             <!-- imagen del logo -->
+                <div class="head_item_izquierdo">
+                                               <div class="head_logo"><img src="./logo.png"></div> 
+
+                             <div> 
+                                                 <!-- /* ajuste de boton del head follow y mas */ -->
+
+
+                                              <div class="item_head"><a href="" class="a_item1">Covid FDC </a></div>
+               
+                                          <div class="item_head">
+                                                
+                                                           <a href="" class="a_item2">  covidfdc.org</a> 
+
+                                                      <button class="button_plus"><img src="./mas.png" class="item_head_imgplus">  Follow</button>
+
+                                               
+                                          </div> 
+
+
+                             </div>
+              
+                 </div>
+
+
+                      <!-- iconos de la derecha (sign up ,login) -->
+                                     <div class="item_derecha">
+                                      
+                                           <div><button class="button_head_derecha_item button_derecha1" ><img src="./corazon.png" class="item_head_corazon"></button></div>     
+                                           <div><button class="button_head_derecha_item button_derecha2">View in Editor</button></div>
+                                           <div><button class="button_head_derecha_item button_derecha3">Sign Up</button></div>
+                                           <div><button class="button_head_derecha_item button_derecha4">Log In</button> </div>  
+                                           
+                                      </div>
+         </div>
+
+
+
+
+<!-- /* aqui empieza el codigo del formulario */ -->
+
+            <header>
+   
+   <div>    <h1>Covid-19 Survey Form</h1></div>
+
+
+
+
+   <div>
+     <h3>Gracias por tu tiempo en tomar esta encuesta que no ayudara a toma una buena desicion</h3>
+   </div>
+   
+      
+   
+  
+   
+            </header>
+
+
+
+      
+
+            <div class="contenedor_del_formulario">
+
+
+  
+   
+   <form action="">
+
+
+
+          <div class="form_group"> 
+
+           <div><label id="nombre"  class="form_titulos">Name</label> </div>
+           <div> <input name="nombre" type="text" class="input_group" placeholder="Escribe tu nombre" ></div>
+
+        
+
+         </div>
+
+
+       
+         
+      
+          <div class="form_group">
+            <div><label id="Email" for="Email" class="form_titulos">Email</label></div>
+            <div><input name="Email" type="email" class="input_group" placeholder="Enter your Email" ></div>
+            
+            
+
+          </div>
+          
+          
+
+         
+
+          
+          <div class="form_group">
+            <div><label id="edad" for="edad" class="form_titulos">Age(optional)</label> </div>
+            <div><input name="edad" type="number" class="input_group" placeholder="edad" min="10" max="99" ></div>
+            
+            
+
+          </div>
+
+          <div class="form_group">
+
+              <p class="form_titulos">Cual  ha sido su mejor practica para evitar el covid hasta ahora?</p>
+
+              <select  name="Cual  ha sido su mejor practica para evitar el covid hasta ahora?" id="dropdown"   class="form_control">
+
+                    <option  disabled selected value="">Select una opcion</option>
+                    <option value="evitar contacto">evitar contacto</option>
+                    <option value="evitar contacto y estar protegido con mascarrilla">evitar contacto y estar protegido con mascarrilla</option>
+                    <option value="tar contacto y estar protegido con mascarrilla y antibacteria">tar contacto y estar protegido con mascarrilla y antibacteria</option>
+                    <option value="estar en casa todo el tiempo">estar en casa todo el tiempo</option>
+                    <option value="ningunas de la anteriores">ningunas de la anteriores</option>
+
+
+              </select>
+
+         </div>
+      
+          <div class="form_group">  
+             <p class="form_titulos">Deberia de recomendar Covid fundacion sus practicas?</p>
+             <div><label><input  class="group_ptn_group" type="radio" name="Deberia de recomendar Covid fundacion sus practicas?" value="si">si</input></label></div>
+          
+          <div><label><input class="group_ptn_group" type="radio" name="Deberia de recomendar Covid fundacion sus practicas?" value="no">no</input></label></div>
+          
+          <div>  <label><input class="group_ptn_group" type="radio" name="Deberia de recomendar Covid fundacion sus practicas?" value="mejor buscar ayuda profesional">mejor buscar ayuda profesional</input> </label></div>
+        
+
+         
+
+          </div>
+
+          <div class="form_group">
+
+            <p class="form_titulos">Cual seria la mejor option que deberiamos de aplicar para ayudar a las personas?</p>
+
+            <select name="Cual seria la mejor option que deberiamos de aplicar para ayudar a las personas?" id="dropdown"   class="form_control">
+
+                  <option  disabled selected value="">seleciona una opcion</option>
+                  <option value="enviandole la infomacion para prevenir">enviandole la infomacion para prevenir</option>
+                  <option value="vacunarse">vacunarse</option>
+                  <option value="distanciamiento">distanciamiento</option>
+                  <option value="envitar agrupacion de personas">envitar agrupacion de personas</option>
+                 
+
+
+            </select>
+
+       </div>
+
+
+
+          <div class="form_group">  
+                
+         <p class="form_titulos" >Cual seria la mejor herramienta para llevar la informacion?</p>
+
+         <div><label><input class="group_ptn_group" type="checkbox" name="Cual seria la mejor herramienta para llevar la informacion?"  value="redes sociales" >redes sociales</label></div>
+         
+         <div><label><input class="group_ptn_group" type="checkbox" name="Cual seria la mejor herramienta para llevar la informacion?" value="mensage de texto" >mensage de texto</label></div>
+
+         <div><label><input class="group_ptn_group" type="checkbox"name="Cual seria la mejor herramienta para llevar la informacion?"s  value="radio" >radio</label></div>
+        
+         <div><label><input class="group_ptn_group" type="checkbox"name="Cual seria la mejor herramienta para llevar la informacion?"s  value="todos los medios de comunicacion" >todos los medios de comunicacion</label></div>
+
+
+        </div>
+           
+          
+
+
+        <p class="form_titulos">Cualquier comentario o sugerencia escribenos?</p>
+        <div class="contenedor_textarea"><textarea class="text_area_form" name="comentario" id="comentario" cols="30" rows="10" placeholder="Comenta aqui"></textarea></div>
+       
+
+         
+             <div class="contenedor_enviar"> <button class="button_form_enviar">Enviar</button></div>
+        
+
+   </form>
+
+
+
+
+
+            </div>
+
+
+
+        
+</body>
+
+</body>
+           
+   
+   
+   
+
+     
+          
+
+</body>
+</html>

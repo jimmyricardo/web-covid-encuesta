@@ -1,0 +1,394 @@
+*{
+
+padding: 0%;
+margin: 0%;
+box-sizing: border-box;
+
+
+
+}
+ body{
+
+background-image: url(./equipos-de-trabajo-exitosos01.jpg);
+
+z-index: -1;
+position: relative;
+
+width: auto;
+
+background-size: cover;
+background-repeat: no-repeat;
+
+
+
+
+ }
+
+
+
+
+.contenedor_head{
+
+display: flex;
+justify-content: space-between;
+background-color: rgb(0, 0, 0);
+height: 3.4em;
+width: 100%;
+}
+
+
+/* <!-- contenido del head de la izquirda --> */
+
+/* <!-- imagen del logo --> */
+
+.head_item_izquierdo{
+
+display: flex;
+
+width: 13em;
+background-color: rgb(0, 0, 0);
+
+
+}
+
+
+
+
+/* ajuste de boton del head follow y mas */
+.button_plus{
+    
+    border-radius: 5px;
+   
+   
+    }
+
+
+    
+    .item_head a{
+      font-size: 1.3em;
+
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    
+    
+
+
+    }
+
+   .item_head .a_item2{
+font-size: small;
+color: rgb(136, 136, 136);
+
+    }
+.item_head_imgplus{
+
+    width: 10px;
+
+}
+
+.item_head  button{
+
+    background-color: rgb(52, 224, 0);
+
+}
+
+.item_head  button:hover{
+    background-color: rgb(40, 170, 0);
+    color: aliceblue;
+
+}
+
+.button_plus img:hover{
+filter: invert(99%) sepia(92%) saturate(0%) hue-rotate(68deg) brightness(109%) contrast(100%);
+
+
+}
+
+/*   <!-- iconos de la derecha (sign up ,login) --> */
+.button_derecha1 img{
+
+    filter: invert(99%) sepia(92%) saturate(0%) hue-rotate(68deg) brightness(109%) contrast(100%);
+    
+}
+
+.button_head_derecha_item{
+
+
+
+}
+
+
+
+.item_derecha{
+
+
+    display: flex;
+  
+
+margin-top:auto ;
+margin-bottom:auto ;
+
+
+}
+
+.item_head_corazon{
+    width: 10px;
+    
+
+}
+
+.button_head_derecha_item{
+    border-radius: 5px;
+height: 3em;
+padding-left: 15px;
+padding-right: 15px;
+margin-left: 2px;
+margin-right: 2px;
+background-color: rgb(97, 97, 97);
+color: aliceblue;
+font-size: 1em;
+}
+
+.button_head_derecha_item:hover{
+
+    background-color: rgb(122, 122, 122);
+
+}
+
+
+.button_derecha3{
+
+background-color: rgb(52, 224, 0);
+color:black
+
+}
+
+.button_derecha3:hover{
+
+    background-color: rgb(40, 170, 0);
+    color: aliceblue;
+    
+    }
+
+
+/* reponsive del header */
+
+@media (max-width:760px ){
+
+.button_plus{
+display:none;
+
+
+}
+  
+
+}
+
+@media (max-width:560px ){
+.item_head_corazon{
+    display: none;
+}
+    .button_derecha1{
+display: none;
+
+
+    }
+
+    .item_head a{
+        font-size: 1em;
+    }
+
+
+
+    
+    .button_head_derecha_item{
+
+font-size: 0.65em;
+
+
+
+
+    }
+    
+.button_head_derecha_item{
+
+    height: 25px;
+}
+
+
+    
+    }
+
+    /* aqui empieza el codigo del formulario */
+
+
+header{
+
+display: block;
+text-align: center;
+min-width: 300px;
+color: aliceblue;
+
+}
+
+    .contenedor_del_formulario{
+
+
+    }
+ 
+.contenedor_del_formulario{
+
+display: flex;
+justify-content: center;
+background: rgba(4,7,12,0.80);
+width: 600px;
+min-width: 300px;
+margin-left: auto;
+margin-right: auto;
+
+border-radius: 5px;
+
+
+}
+
+.form_group{
+
+padding: 10px;
+
+}
+
+.form_titulos{
+
+color: aliceblue;
+font-size: 2.3rem;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.input_group{
+
+width: 100%;
+
+}
+
+.form_control{
+
+    width: 100%;
+
+} 
+/* ajuste de los input y los select */
+
+.input_group {
+
+height: 2.5em;
+border-radius: 5px;
+
+
+
+}
+
+.form_control{
+    height: 2.5em;
+    border-radius: 5px;
+
+
+}
+
+.form_titulos input{
+
+
+}
+
+/* ajuste de los checkbox y los radios */
+
+.group_ptn_group{
+
+    min-height: 1.2rem;
+    min-width: 1.2rem;
+
+
+
+}
+
+.form_group label{
+font-size: 2rem;
+color: aliceblue;
+
+}
+
+    
+    
+
+
+
+
+
+
+/* ajuste de comentar */
+
+
+.text_area_form{
+
+width: 80%;
+font-size: 1.2rem;
+resize: none;
+
+font-family: Arial, Helvetica, sans-serif;
+border-color: dimgray;
+}
+
+.contenedor_textarea{
+text-align: center;
+
+
+}
+
+/* butto enviar estilo */
+
+.button_form_enviar{
+
+background-color: rgb(52, 224, 0);
+
+width:80%;
+height: 40px;
+border-radius: 5px;
+color: aliceblue;
+font-size: 1.2em;
+border-style:  solid  1px ;
+
+}
+
+.button_form_enviar:hover{
+
+    background-color: rgb(44, 187, 0);
+
+
+
+    
+}
+
+.button_form_enviar:active{
+
+    background-color: rgb(187, 121, 0);
+    opacity: 0.5;
+
+
+
+    
+}
+
+.contenedor_enviar{
+   
+   text-align: center;
+
+}
+
+
+/* media query para el fondo del contenedor */
+
+@media (max-width:720px ){
+    .contenedor_del_formulario{
+        width: auto;   
+    }
+    }
+
+    
